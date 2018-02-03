@@ -43,5 +43,6 @@ public class Month {
 		int n=randomNum.nextInt(12)+1;
 		System.out.println("The corresponding month of number "+n+" is "+getMonth(n));
 		
+		System.exit(0);
 	}
 }

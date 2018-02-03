@@ -16,5 +16,6 @@ public class ReadFile {
 		
 		System.out.println("Output Ends");
 		s.close();
+		System.exit(0);
 	}		
 }
