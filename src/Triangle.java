@@ -2,6 +2,7 @@ import java.util.*;
 /**
  * 
  * @author huangtt
+ * Question 5
  *
  */
 public class Triangle extends TwoDPoint{

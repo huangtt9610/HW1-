@@ -3,7 +3,7 @@ import java.text.DecimalFormat;
 /**
  * 
  * @author huangtt
- *
+ * Question 2
  */
 public class CircleArea {
 	

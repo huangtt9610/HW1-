@@ -2,6 +2,7 @@ import java.util.*;
 /**
  * 
  * @author huangtt
+ * Question 6
  *
  */
 public class Circle extends TwoDPoint{
