@@ -1,0 +1,13 @@
+Enter radius: 
+The circle area with radius 2.0 is 12.57
+Enter radius: 
+-1.0 is a invalid value, enter a new radius: 
+The circle area with radius 4.0 is 50.27
+Enter radius: 
+"s" is a invalid value, enter a new radius: 
+"l" is a invalid value, enter a new radius: 
+The circle area with radius 2.0 is 12.57
+Enter radius: 
+-4.0 is a invalid value, enter a new radius: 
+The circle area with radius 0.0 is 0
+Enter radius: 

@@ -1,0 +1,47 @@
+Enter the center coordinate of a circle: 
+Enter the radius: 
+Enter the center coordinate of a circle: 
+Enter the radius: 
+1st circle: coordinates (12.0,9.0), radius 8.0
+2nd circle: coordinates (0.0,3.0), radius 4.0
+The circles are separate from each other
+
+Enter the center coordinate of a circle: 
+Enter the radius: 
+Enter the center coordinate of a circle: 
+Enter the radius: 
+1st circle: coordinates (1.0,1.0), radius 1.0
+2nd circle: coordinates (-1.0,1.0), radius 1.0
+The circles are touching each other
+
+Enter the center coordinate of a circle: 
+Enter the radius: 
+Enter the center coordinate of a circle: 
+Enter the radius: 
+1st circle: coordinates (2.0,3.0), radius 12.0
+2nd circle: coordinates (3.0,8.0), radius 16.0
+The circles are overlapping each other
+
+Enter the center coordinate of a circle: 
+Enter the radius: 
+java.lang.ArithmeticException: -3.0 is invalid value for radius
+Enter the center coordinate of a circle: 
+Enter the radius: 
+java.lang.ArithmeticException: -12.0 is invalid value for radius
+Enter the center coordinate of a circle: 
+Enter the radius: 
+Enter the center coordinate of a circle: 
+Enter the radius: 
+1st circle: coordinates (6.8,12.3), radius 5.6
+2nd circle: coordinates (6.8,12.3), radius 5.6
+The circles are completely within one another
+
+Enter the center coordinate of a circle: 
+Enter the radius: 
+Enter the center coordinate of a circle: 
+Enter the radius: 
+1st circle: coordinates (-12.4,89.0), radius 34.0
+2nd circle: coordinates (10.0,32.0), radius 56.0
+The circles are overlapping each other
+
+Enter the center coordinate of a circle: 
