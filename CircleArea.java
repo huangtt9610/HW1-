@@ -15,7 +15,7 @@ public class CircleArea {
 		Scanner s=new Scanner(System.in); 
 		double radius;
 		DecimalFormat d=new DecimalFormat("#.##"); // I got info from https://docs.oracle.com/javase/7/docs/api/java/text/DecimalFormat.html
-		System.out.print("Enter radius: ");
+		System.out.println("Enter radius: ");
 		
 		while(s.hasNext()) {
 				
@@ -24,7 +24,7 @@ public class CircleArea {
 				radius = s.nextDouble();
 				if(radius >= 0.0) {
 					System.out.println("The circle area with radius " + radius+" is "+d.format(calArea(radius)));
-					System.out.print("Enter radius: ");
+					System.out.println("Enter radius: ");
 				}
 				
 				else  {	
