@@ -1,0 +1,11 @@
+Enter radius: The circle area with radius 0.0 is 0
+Enter radius: The circle area with radius 12.0 is 452.39
+Enter radius: The circle area with radius 29.3 is 2697.03
+Enter radius: -9.0 is a invalid value, enter a new radius: 
+"m" is a invalid value, enter a new radius: 
+The circle area with radius 0.33 is 0.34
+Enter radius: "p" is a invalid value, enter a new radius: 
+-3.0 is a invalid value, enter a new radius: 
+The circle area with radius 12.0 is 452.39
+Enter radius: The circle area with radius 94.0 is 27759.11
+Enter radius: 

@@ -8,10 +8,11 @@ public class Circle extends TwoDPoint{
 	
 	public Circle(double r, TwoDPoint pt) {
 		if(r<0.0)
-			throw new ArithmeticException("radius cannot be negative");
+			throw new ArithmeticException(r + " is invalid value for radius");
 		radius=r;
 		center=pt;
 	}
+	
 	
 	public int circleRelation (Circle c) {
 		int relation=-1;
@@ -27,7 +28,9 @@ public class Circle extends TwoDPoint{
 		return relation;
 	}
 	
-	public static void print(int i) {
+	public static void print(int i, Circle c1, Circle c2) {
+		System.out.println("1st circle: coordinates ("+c1.center.x+','+c1.center.y+"), radius "+c1.radius);
+		System.out.println("2nd circle: coordinates ("+c2.center.x+','+c2.center.y+"), radius "+c2.radius);
 		switch(i) {
 			case 0: System.out.println("The circles are separate from each other\n");
 				break;
@@ -65,8 +68,8 @@ public class Circle extends TwoDPoint{
 						circle[i]=new Circle(s.nextDouble(), pt[i]);
 					}
 				}
-			
-				print(circle[0].circleRelation(circle[1]));
+				
+				print(circle[0].circleRelation(circle[1]), circle[0],circle[1]);
 				System.out.println("Enter the center coordinate of a circle: ");
 				
 			} catch(Exception e) {

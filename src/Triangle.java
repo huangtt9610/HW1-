@@ -53,8 +53,7 @@ public class Triangle extends TwoDPoint{
 				System.out.println("Enter coordinates-> ");
 			}
 			catch(Exception e) {//I got info from https://beginnersbook.com/2013/04/try-catch-in-java/
-				System.out.println("invalid value, enter new value for coordinates->");
-				s.next();
+				System.out.println('"'+s.next() +'"' + " is a invalid value, enter new value for coordinates->\n");
 			}
 
 		}
